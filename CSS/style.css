@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=Titillium+Web:wght@300;400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+}
+
+body {
+    color: white;
+    background-color: #212529;
+}
+h1{
+    font-weight: 700;
+}
+h3{
+    font-weight: 500;
+}
+#navbarNav > ul >li > a{
+    color: white;
+    font-size: 3rem;
+    font-weight: 600;
+    text-shadow:
+    0px 4px 3px rgba(0,0,0,0.4),
+    0px 8px 13px rgba(0,0,0,0.1),
+    0px 18px 23px rgba(0,0,0,0.1);
+}
+
+#navbarNav > ul >li > a:hover, a:focus{
+    color: black;
+    background-color: #DB1538;
+}
+
+@media (max-width: 992px) {
+    #navbarNav > ul >li > a{
+        font-size: 2.5rem;
+    }
+}

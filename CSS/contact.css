@@ -1,0 +1,29 @@
+.container{
+    max-width: 500px;
+}
+._honey{
+    display: none;
+}
+.form-label, 
+.btn{
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.form-control{
+    font-size: 1.25rem;
+}
+
+.btn {
+    color: white;
+}
+
+.btn:hover{
+    background-color: #DB1538;
+    color: black;
+    text-shadow: 
+    0px 4px 3px rgba(0,0,0,0.4),
+    0px 8px 13px rgba(0,0,0,0.1),
+    0px 18px 23px rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
