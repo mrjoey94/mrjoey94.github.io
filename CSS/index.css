@@ -34,7 +34,7 @@ hr{
 
 @media (max-width: 992px) {
   body{
-    background-image: none;
+    background-image: URL(../IMG/Sven_Mobile.png);
     background-color: #212529;
   }
 }
