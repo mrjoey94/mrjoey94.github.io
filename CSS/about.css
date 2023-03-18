@@ -19,27 +19,3 @@ article h3{
 article p{
   font-size: 1.1rem;
 }
-.social{
-  width: 100%;
-  clear: both;
-  margin-top: 10px;
-  text-align: center;
-}
-.social a {
-  text-decoration: none;
-}
-.social i {
-  color: #fff;
-  height: 45px;
-  width: 45px;
-  border-radius: 50%;
-  line-height: 45px;
-  text-align: center;
-  margin: 0px 5px;
-}
-.social i:hover{
-  color: #000;
-  background-color: #DB1538;
-  transition: 1s ease;
-  transform: rotate(360deg);
-}
