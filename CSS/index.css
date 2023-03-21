@@ -48,7 +48,6 @@ hr{
 @media (max-width: 992px) {
   body{
     background-image: none;
-    background-color: #212529;
   }
   .overlay{
     height: 100%;
@@ -58,7 +57,7 @@ hr{
     font-size: 3rem;
   }
   p{
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     padding-bottom: 0px;
   }
   #carousel{
