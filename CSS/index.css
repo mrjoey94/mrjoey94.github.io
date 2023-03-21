@@ -3,6 +3,7 @@ body{
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  color: white;
 }
 
 .overlay{
@@ -12,7 +13,7 @@ body{
 
 #content{
   text-align: left;
-  margin-top: 10%;
+  margin-top: 2.5%;
   text-shadow: 
     0px 4px 3px rgba(0,0,0,0.4),
     0px 8px 13px rgba(0,0,0,0.1),
@@ -22,12 +23,13 @@ body{
 h1{
   font-weight: 700;
   font-size: 5rem;
-  padding-left: 30px;
+  padding-left: 20px
 }
 h3{
   font-weight: 600;
   font-size: 2.5rem;
-  padding-left: 30px;
+  padding-top: 30px;
+  padding-left: 20px;
   padding-bottom: 10px;
 }
 
@@ -39,9 +41,13 @@ hr{
   margin-right: auto;
 }
 
+#carousel{
+  display: none;
+}
+
 @media (max-width: 992px) {
   body{
-    background-image: URL(../IMG/Sven_Mobile.png);
+    background-image: none;
     background-color: #212529;
   }
   h1{
@@ -49,5 +55,8 @@ hr{
   }
   h3{
     font-size: 1.5rem;
+  }
+  #carousel{
+    display: block;
   }
 }
