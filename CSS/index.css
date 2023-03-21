@@ -50,15 +50,16 @@ hr{
     background-image: none;
     background-color: #212529;
   }
+  .overlay{
+    height: 100%;
+    background-color: rgba(33, 37, 41, 1);
+  }
   h1{
     font-size: 3rem;
   }
   p{
     font-size: 1.5rem;
     padding-bottom: 0px;
-  }
-  #carousel{
-    display: block;
   }
   #carousel{
     display: block;
