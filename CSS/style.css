@@ -4,24 +4,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Atkinson Hyperlegible', sans-serif;
-}
-
-body {
     color: white;
-    background-color: #212529;
-}
-h1{
-    font-weight: 700;
-}
-h3{
-    font-weight: 500;
-}
-@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=Titillium+Web:wght@300;400;700&display=swap');
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Atkinson Hyperlegible', sans-serif;
 }
 
 body {
@@ -44,8 +27,14 @@ background-color: #DB1538;
   flex-direction: row;
 }
 
+@media(max-width: 1100px) {
+  #navbarNav > ul > li > a{
+      font-size: 2rem;
+  }
+}
+
 @media (max-width: 992px) {
-    #navbarNav > ul >li > a{
-        font-size: 2rem;
-    }
+  #navbarNav > ul >li > a{
+      font-size: 1.25rem;
+  }
 }
