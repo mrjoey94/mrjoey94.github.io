@@ -1,9 +1,11 @@
 .container{
     max-width: 500px;
 }
+
 ._honey{
     display: none;
 }
+
 .form-label, 
 .btn{
     font-size: 2rem;
