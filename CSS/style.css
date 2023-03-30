@@ -23,6 +23,10 @@ body {
 background-color: #DB1538;
 }
 
+.active{
+  background-color: #DB1538;
+}
+
 .sm-icons {
   flex-direction: row;
 }
